@@ -36,19 +36,6 @@ The extracted reference files are mapped from these sections:
 | `tracking-core.php` | order tracking page and user order filtering |
 | `refund-core.php` | refund page and refund submission logic |
 
-## Data Flow
-
-```mermaid
-flowchart TD
-  A[Cart Checkout Form] --> B[Validate shipping and email]
-  B --> C[Create order]
-  C --> D[Create tracking record]
-  D --> E[Order Tracking Page]
-  E --> F[Refund Request Page]
-  F --> G[Refund record]
-  G --> H[Hide refunded order from Tracking and Refund pages]
-```
-
 ## Database Tables
 
 The implementation uses three main custom WordPress database tables:
