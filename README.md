@@ -3,6 +3,7 @@
 This repository contains the core source-code references for an online business website developed for **NIT3114 Online Business System Development**.
 
 The live site is implemented with custom WordPress/PHP code. For assignment citation and GitHub readability, the three main business functions have been separated into smaller reference files with neutral names.
+
 All code is self-implemented.
 ## Project Information
 
